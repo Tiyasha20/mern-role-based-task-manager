@@ -60,6 +60,7 @@
     padding:20px;
     border-radius:10px;
     box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      overflow-x:auto;
 }
 
 table{
@@ -102,4 +103,54 @@ th{
     border:none;
     padding:10px 20px;
     border-radius:6px;
+}
+@media (max-width:768px){
+
+    .admin-container{
+        width:95%;
+    }
+
+    .card-container{
+        flex-direction:column;
+    }
+
+    .card{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .create-btn{
+        width:100%;
+    }
+
+    .logout-btn{
+        width:100%;
+    }
+
+    table{
+        min-width:700px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .admin-container h1{
+        font-size:30px;
+    }
+
+    .admin-container h2{
+        font-size:22px;
+    }
+
+    .welcome{
+        font-size:16px;
+    }
+
+    th,
+    td{
+        padding:10px;
+        font-size:14px;
+    }
+
 }

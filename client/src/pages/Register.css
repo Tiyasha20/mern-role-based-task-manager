@@ -64,3 +64,20 @@
     color:#2563eb;
     font-weight:bold;
 }
+@media (max-width:768px){
+
+    .register-card{
+        width:90%;
+        padding:25px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .register-card{
+        width:95%;
+        padding:20px;
+    }
+
+}

@@ -65,3 +65,36 @@ textarea{
     padding:10px 20px;
     border-radius:6px;
 }
+@media (max-width:768px){
+
+    .task-card{
+
+        width:90%;
+        padding:25px;
+
+    }
+
+    .button-group{
+
+        flex-direction:column;
+        gap:10px;
+
+    }
+
+    .button-group button{
+
+        width:100%;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .task-card{
+
+        width:95%;
+
+    }
+
+}

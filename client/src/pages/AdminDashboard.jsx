@@ -103,7 +103,7 @@ function AdminDashboard(){
         + Create Task
       </button>
        <div className="table-container">
-
+       
         <table>
 
           <thead>
@@ -141,6 +141,7 @@ function AdminDashboard(){
           </tbody>
 
         </table>
+        
 
       </div>
       <button className="logout-btn" onClick={handleLogout}>
