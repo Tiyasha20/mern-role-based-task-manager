@@ -3,7 +3,8 @@ const connectDB=require('./config/db')
 
 connectDB();
 
+const PORT=process.env.PORT||5000
 
-app.listen(process.env.PORT,()=>{
-    console.log(`Server Running at ${process.env.PORT}`);
+app.listen(PORT,()=>{
+    console.log(`Server Running at ${PORT}`);
 })
